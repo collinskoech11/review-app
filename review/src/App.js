@@ -11,8 +11,8 @@ function App() {
       
      <NavPage/>
      <Router>
-      <Route path="/" component={Home}/>
-      <Route/>
+      <Route path="/"  exact component={Home}/>
+      <Route path="" />
      </Router>
     </div>
   );
