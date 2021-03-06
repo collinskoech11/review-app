@@ -3,6 +3,7 @@ import NavPage from './Components/NavPage';
 import {BrowserRouter as Router,Route} from 'react-router-dom';
 import './App.css';
 import Home from './Pages/Home';
+import About from './Pages/About';
 
 function App() {
 
